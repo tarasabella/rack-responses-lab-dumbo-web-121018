@@ -20,6 +20,7 @@ class Application
     resp.finish
     
   end 
+end 
     
     # time = Time.now.hour 
     
