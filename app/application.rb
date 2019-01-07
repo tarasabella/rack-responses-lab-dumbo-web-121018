@@ -22,13 +22,13 @@ class Application
   end 
 end 
     
-    # time = Time.now.hour 
+    time = Time.now.hour 
     
-    # if time > 12
-    #   resp.write "Good Afternoon!"
-    # else 
-    #   resp.write "Good Morning!"
-    # end
+    if time > 12
+      resp.write "Good Afternoon!"
+    else 
+      resp.write "Good Morning!"
+    end
     
-    # resp.finish
+    resp.finish
   
