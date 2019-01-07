@@ -17,8 +17,14 @@ class Application
     #   resp.write "Good Afternoon!"
     # end
     
+    time = Time.now.hour 
     
- 
+    if time > 12
+      resp.write "Good Afternoon!"
+    else 
+      resp.write "Good Morning!"
+    end
+    
     resp.finish
   end
  
