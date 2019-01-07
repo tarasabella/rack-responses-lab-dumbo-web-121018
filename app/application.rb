@@ -11,11 +11,12 @@ class Application
     resp.write "#{noon}\n"
   
  
-    # if morning
-    #   resp.write "Good Morning!"
-    # else 
-    #   resp.write "Good Afternoon!"
-    # end
+    if morning
+      resp.write "Good Morning!"
+    else 
+      resp.write "Good Afternoon!"
+    end
+  end 
     
     # time = Time.now.hour 
     
